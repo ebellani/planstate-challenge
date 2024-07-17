@@ -49,6 +49,19 @@ each `PlanState` execution to run as if it was executed with the signature of
 `planstate->ExecProcNodeReal(PlanState *, additional_context)` instead of
 `planstate->ExecProcNodeReal(PlanState *)`.
 
+If you spot any deficiences, inefficiences or other interesting tidbit, or will have any
+related thoughts, feel free to explore and include them.
+
+## Review Criteria
+
+We'll be considering the following criteria when reviewing your solution, in no specific
+order of significance:
+
+* Correctness (at the very least, it should solve the problem!)
+* Low execution overhead (memory and CPU – we need our stuff to be efficient)
+* Time to completion (we're a startup, we need to move fast)
+* Astute observations (being able to quickly research and figure out things)
+
 ## Questions?
 
 If anything is unclear, or you spotted an issue with the project itself, please
